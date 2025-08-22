@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index page</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="everything">
+      <div class="intro_con">
+        <h1 class="centered">Benjamin Brunsgaard Reinertsen</h1>
+        <img
+          src="{{ url_for('static', filename='images/edited.JPG') }}"
+          alt=""
+          class="image"
+        />
+        <p class="centered">
+          Hei, mitt navn er Benjamin og jeg går på tangen videregående skole på
+          IT. jeg triver skiggelig godt
+        </p>
+      </div>
+
+      <div class="tangen_con">
+        <p>Her er tre ting jeg liker</p>
+        <ul>
+          <li>Programmering</li>
+          <li>Videospill</li>
+          <li>Sjokolademelk</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

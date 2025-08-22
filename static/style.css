@@ -1,0 +1,32 @@
+.everything {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    top: 50px;
+    width: 1000px;
+}
+
+html {
+    background-color: #FFFFFF;
+    font-size: 15px;
+}
+
+.centered {
+    margin-left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+.tangen_con {
+    margin-top: 50px;
+    margin-left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+img {
+    width: 60%;
+    height: auto;
+    margin-left: 50%;
+    transform: translate(-55%, -0%);
+}
